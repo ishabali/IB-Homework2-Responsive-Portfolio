@@ -1,15 +1,15 @@
-<!-- Responsive Portfolio with Bootstrap (with cards) -->
+<!-- CONTACT PAGE - Responsive Portfolio with Bootstrap (with cards) -->
+
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
-
   <meta charset="UTF-8">
   <!--  Responsiveness- Meta tag to ensure website is responsive 
         i.e. things scale correctly across varying devices. -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Isha Bali's Responsive Portfolio</title>
+  <title>Isha Bali's Responsive Portfolio- Home Page - About Me</title>
   
   <!-- Link to Normalize.css - It makes browsers render all elements more consistently across most browsers and 
   in line with modern standards. It precisely targets only the styles that need normalizing. -->
@@ -17,17 +17,141 @@
   
    <!-- We link our html to the Bootstrap CDN -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <!-- <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-    crossorigin="anonymous"
-  /> -->
 </head>
 
+<!-- Class nav used for Navigation Bar -->
 <body>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="contact.html">Contact</a>
+        </li>
+      </ul>
 
-    CONTACT
+<!-- Main Body goes in class .Container which is respnsive fixed width container-->
+<!-- Jumbotron element -->
+
+  <!-- <div class="container"> -->
+    <div class="container jumbotron">
+    <div class="row">
+      <div class="col-lg-12">
+      <!-- The content in this div gets wrapped in a card -->
+        <div class="card">
+          <div class="card-body">
+            <h1 class="text-center"><strong>Isha Bali - Contact Me</strong></h1>
+            <!-- About Me -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+        <form>    
+            <div class="form-row">   
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            <!-- <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div> -->
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    
+    </div>
+    <br>
+
+    <!-- <div class="row">
+        <div class="col-lg-3"> -->
+               <!-- <img class="img img-thumbnail" src="http://placehold.it/200x200"> -->
+          <!-- <img class="img img-thumbnail" src="./assets/images/Isha-Profile-Pic-Black.jpg" alt ="Picture of Isha Bali">
+        </div>
+        <div class="col-lg-9">
+          <h2 class="text-left">About Me</h2> -->
+              <!-- <h2>ISHA BALI</h2> -->
+          <!-- <p>I am a Web Developer based in Chicago. I have a work experience of over 6 years as a programmer.
+             I am a Masters in Computer Applications. </p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-lg-3"> -->
+            <!-- <img class="img img-thumbnail" src="http://placehold.it/200x200"> -->
+          <!-- <img class="img img-thumbnail" src="./assets/images/girl-coding.jpg" alt = "Picture of a Woman coding">
+        </div>
+        <div class="col-lg-9">
+          <h2 class="text-left">My Work Experience</h2>
+          <p>
+              I have work-experience in development in Powerbuilder, Delphi and Oracle and in 
+              Project Design. My current area of interest is Web Development. 
+              I am a full-stack web developer. </p>
+        </div>
+      </div> -->
+    
+      <br>
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- The content in this div gets wrapped in a card -->
+        <div class="card">
+          <div class="card-body">
+            <div class="text-center">
+              <a href="index.html">
+                <img class="" src="./assets/images/about-me-50-50.png" alt="Click image to see information about me">
+              </a>
+              <a href="portfolio.html">
+                <img class="" src="./assets/images/portfolio-50-50.jpg" alt="Click image to my coding portfolio">
+              </a>
+              <a href="contact.html">
+                <img class="" src="./assets/images/contact-50-50.jpg" alt="Click image to contact me">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 
 </html>

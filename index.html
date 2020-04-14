@@ -3,7 +3,6 @@
 <html lang="en-us">
 
 <head>
-
   <meta charset="UTF-8">
   <!--  Responsiveness- Meta tag to ensure website is responsive 
         i.e. things scale correctly across varying devices. -->
@@ -17,16 +16,10 @@
   
    <!-- We link our html to the Bootstrap CDN -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <!-- <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-    crossorigin="anonymous"
-  /> -->
 </head>
 
+<!-- Class nav used for Navigation Bar -->
 <body>
-
     <ul class="nav justify-content-end">
         <li class="nav-item">
           <a class="nav-link disabled" href="index.html">About</a>
@@ -39,63 +32,8 @@
         </li>
       </ul>
 
-        <!-- NavBar (copied and pasted from WC3) -->
-        <!-- Static navbar -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> --> 
-            <!-- <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button> -->
-
-    <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li> -->
-                <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-                </li> -->
-        <!-- <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul> -->
-            <!-- <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
-    <!-- </div>
-  </nav> -->
-
-  <!-- Main Body goes in class .Container which is respnsive fixed width container-->
+<!-- Main Body goes in class .Container which is respnsive fixed width container-->
 <!-- Jumbotron element -->
-<!-- <div class="jumbotron"> -->
-
-    <!-- centered text -->
-    <!-- <h1 class="text-center"><strong>Awesome Header</strong></h1>
-    <h2 class="text-center">Smaller Awesome Header</h2>
-    <h3 class="text-center">Even Smaller Header</h3> -->
-
-    <!-- button with predefined style rules -->
-    <!-- <p class="text-center">
-      <a class="btn btn-primary btn-lg" href="#" role="button">
-        <span class="fa fa-envelope"></span> Learn more</a>
-    </p>
-  </div> -->
-
-
-
-
 
   <!-- <div class="container"> -->
     <div class="container jumbotron">
@@ -104,7 +42,8 @@
       <!-- The content in this div gets wrapped in a card -->
         <div class="card">
           <div class="card-body">
-            About Me
+            <h1 class="text-center"><strong>ISHA BALI</strong></h1>
+            <!-- About Me -->
           </div>
         </div>
       </div>
@@ -115,8 +54,9 @@
         <img class="img img-thumbnail" src="./assets/images/Isha-Profile-Pic-Black.jpg" alt ="Picture of Isha Bali">
       </div>
       <div class="col-lg-9">
-        <h2>ISHA BALI</h2>
-        <p>I am a Web Developer based in Chicago. I have a work experience of over 10 years as a programmer.
+        <h2 class="text-left">About Me</h2>
+        <!-- <h2>ISHA BALI</h2> -->
+        <p>I am a Web Developer based in Chicago. I have a work experience of over 6 years as a programmer.
            I am a Masters in Computer Applications. </p>
       </div>
     </div>
@@ -127,10 +67,10 @@
         <img class="img img-thumbnail" src="./assets/images/girl-coding.jpg" alt = "Picture of a Woman coding">
       </div>
       <div class="col-lg-9">
-        <h2>My Work Experience </h2>
+        <h2 class="text-left">My Work Experience</h2>
         <p>
-            I have work-experience in developing in Powerbuilder, Delphi and Oracle and in Project Design 
-            and development. My current area of interest is Web Development. 
+            I have work-experience in development in Powerbuilder, Delphi and Oracle and in 
+            Project Design. My current area of interest is Web Development. 
             I am a full-stack web developer. </p>
       </div>
     </div>
@@ -157,23 +97,6 @@
     </div>
   </div>
 
-  <!-- Here we bring in some scripts required to allow some Bootstrap components to work.
-    For now, this is code to copy and paste. We'll get to script elements soon enough. -->
-  <!-- <script
-    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"
-  ></script> -->
 </body>
 
 </html>
