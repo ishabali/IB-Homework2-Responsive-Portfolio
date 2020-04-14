@@ -220,21 +220,49 @@
         <div class="card">
           <div class="card-body">
             <div class="text-center">
-              <a href="index.html">
-                <img class="" src="./assets/images/about-me-50-50.png" alt="Click image to see information about me">
-              </a>
-              <a href="portfolio.html">
-                <img class="" src="./assets/images/portfolio-50-50.jpg" alt="Click image to my coding portfolio">
-              </a>
-              <a href="contact.html">
-                <img class="" src="./assets/images/contact-50-50.jpg" alt="Click image to contact me">
-              </a>
+                <a href="index.html">
+                    <img data-toggle="tooltip" title="About Me!" class="" src="./assets/images/about-me-50-50.png" alt="Click image to see information about me">
+                  </a>
+                  <a href="portfolio.html">
+                    <img data-toggle="tooltip" title="My portfolio!" class="" src="./assets/images/portfolio-50-50.jpg" alt="Click image to my coding portfolio">
+                  </a>
+                  <a href="contact.html">
+                    <img data-toggle="tooltip" title="Contact Me!" class="" src="./assets/images/contact-50-50.jpg" alt="Click image to contact me">
+                  </a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+  ></script>
+<!-- jquery to add tooltip to image navigation links-->
+  <script>
+      $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+      });
+  </script>
 
 </body>
 
