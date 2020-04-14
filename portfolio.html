@@ -1,15 +1,15 @@
-<!-- PORTFOLIO PAGE - Responsive Portfolio with Bootstrap (with cards) -->
+<!-- Responsive Portfolio with Bootstrap (with cards) - Portfolio Page-->
+
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
-
   <meta charset="UTF-8">
   <!--  Responsiveness- Meta tag to ensure website is responsive 
         i.e. things scale correctly across varying devices. -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Isha Bali's Responsive Portfolio - Portfolio Page</title>
+  <title>Isha Bali's Responsive Portfolio- Home Page - About Me</title>
   
   <!-- Link to Normalize.css - It makes browsers render all elements more consistently across most browsers and 
   in line with modern standards. It precisely targets only the styles that need normalizing. -->
@@ -17,17 +17,225 @@
   
    <!-- We link our html to the Bootstrap CDN -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <!-- <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-    crossorigin="anonymous"
-  /> -->
 </head>
 
+<!-- Class nav used for Navigation Bar -->
 <body>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
 
-    PORTFOLIO
+<!-- Main Body goes in class .Container which is respnsive fixed width container-->
+<!-- Jumbotron element -->
+
+  <!-- <div class="container"> -->
+    <div class="container jumbotron">
+    <!--Row 1-->
+    <div class="row">
+      <div class="col-lg-12">
+      <!-- The content in this div gets wrapped in a card -->
+        <div class="card">
+          <div class="card-body">
+            <h1 class="text-center"><strong>Isha Bali - My Portfolio</strong></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Row 2-->
+    <div class="row">
+        <div class="col-lg-12">
+        <!-- The content in this div gets wrapped in a card -->
+          <div class="card">
+            <div class="card-body">
+              <h4 class="text-center">Given below is my software and web 
+                  development portfolio. These projects illustrate skills 
+                  in HTML, CSS, javascript and python. Some of them are part of the development done as coursework
+                in the NorthWestern Coding Bootcamp. </h4>
+            </div>
+          </div>
+        </div>
+    </div>
+
+<!-- Row 3 -->
+<div class="row">
+    <div class="col-lg-4">
+        <!-- The content in this div gets wrapped in a card -->
+          <div class="card">
+            <div class="card-body">
+              <h2 class="text-center"><strong>Websites</strong></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+            <!-- The content in this div gets wrapped in a card -->
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="text-center"><strong>Games</strong></h2>
+                </div>
+              </div>
+            </div>
+</div>
+
+<!-- Row 4 -->
+<div class="row">
+    <div class="col-lg-4">
+        <!-- The content in this div gets wrapped in a card -->
+          <div class="card">
+            <div class="card-body">
+              <h3 class="text-center">HTML/CSS </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+            <!-- The content in this div gets wrapped in a card -->
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="text-center">Javascript Games </h3>
+                </div>
+              </div>
+            </div>
+        <div class="col-lg-4">
+            <!-- The content in this div gets wrapped in a card -->
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="text-center">Python Games </h3>
+                </div>
+              </div>
+            </div>
+</div>
+
+ <!-- Row 5 -->
+ <div class="row">
+    <div class="col-sm-4">
+    <br>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/images/website1-150.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Fitness Corp.- Corporate website showcasing all their services.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+        <br>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/images/rock-paper-scissors-150.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Rock-Paper-Scissors- Online version of your favourite childhood game.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+        <br>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/images/car-racing-game-150.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Car Racing-Improve your concentration, focus and eye-hand coordination with this car racing game.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 6 -->
+ <div class="row">
+    <div class="col-sm-4">
+    <br>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/images/website2-150.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Travelex-Website for booking all your travel needs - from flights to hotels.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+        <br>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/images/best-tv-shows-150.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Best TV Shows - Log and rank your viewed tv shows</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+        <br>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/images/chess-game-150.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Chess-Play against the computer. Leaqrn and improve your skills.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Row 7 -->
+<div class="row">
+    <div class="col-sm-4">
+    <br>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/images/website3-150.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Istock - Website to view your photographs. Ecommerce site taking print orders.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+        <br>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/images/tetris-game-150.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Tetris - fastpaced, multi-level with great bonuses.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+        <br>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/images/scrabble-game-150.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">SScrabble - online version of the popular word game, can play online with friends.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+    
+    
+    
+    <br>
+    <!--Row 8-->
+     <div class="row">
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="text-center">
+              <a href="index.html">
+                <img class="" src="./assets/images/about-me-50-50.png" alt="Click image to see information about me">
+              </a>
+              <a href="portfolio.html">
+                <img class="" src="./assets/images/portfolio-50-50.jpg" alt="Click image to my coding portfolio">
+              </a>
+              <a href="contact.html">
+                <img class="" src="./assets/images/contact-50-50.jpg" alt="Click image to contact me">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 
 </html>
