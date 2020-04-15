@@ -5,8 +5,10 @@
     margin: 0;
 } */
 
-
-.contact-info{
-    color: blue !important;
+.purple-text{
+    color: purple;
 }
 
+.brown-text{
+    color: brown;
+}
